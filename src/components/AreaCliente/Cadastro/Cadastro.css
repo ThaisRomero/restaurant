@@ -1,0 +1,106 @@
+.form-area-register{
+    display: flex;
+    /* background-image: url(../../../assets/Images/fachada-noite2.2.png); */
+    background-image: url("../../../assets/Images/home_background.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(255, 255, 255, 0.877); */
+    background-color: rgba(0, 0, 0, 0.877);
+    border-radius: 1.5rem;
+    width: 1000px;
+    height: 1000px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5), 5px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.box-register h1{
+    text-align: center;
+    font-size: 85px;
+    font-family: "Italianno", serif;
+    font-weight: 300;
+    /* color: rgb(0, 53, 9); */
+    color: rgb(255, 255, 255);
+    align-content: center;
+    margin-bottom: 30px !important;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: max-content;
+    width: 85%;
+    color: rgb(255, 255, 255);
+}
+
+.register-form input {
+    border-color: rgb(134, 134, 134);
+}
+
+.register-form select {
+    border-color: rgb(134, 134, 134);
+}
+
+.block-inputs{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}
+
+
+#end-rua{
+    width: 460px !important;
+    
+}
+
+#end-number{
+    width: 70px !important;
+}
+
+#end-bairro{
+    width: 280px !important;
+}
+
+#end-phone{
+    width: 180px !important;
+}
+
+#end-mail{
+    width: 400px !important
+}
+
+#end-cidade{
+    width: 300px !important;
+}
+
+#end-estado {
+    width: 300px !important;
+}
+
+#end-cep {
+    width: 200px !important;
+}
+
+small{
+    color: rgb(136, 134, 134);
+}
+
+#btn-register{
+    margin-top: 40px;
+}
+
+.btn{
+    height: 48px;
+    font-size: 20px;
+}

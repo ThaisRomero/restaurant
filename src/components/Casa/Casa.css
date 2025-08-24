@@ -1,0 +1,54 @@
+.content {
+    height: calc(100vh - 88.81px);
+}
+
+#bg-img {
+    /* background-image: url("../../assets/Images/home_background.jpeg"); */
+    background-image: url(../../assets/Images/salao-pessoas.png);
+    background-color: #cccccc;
+    height: calc(100vh - 88.81px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    justify-items: center;
+}
+
+/* .container {
+    padding: 40px 700px 40px 700px;
+    background: rgba(10, 10, 10, 0.808);
+    width: 100%;
+    height: 70%;
+    text-align: center;
+} */
+
+.container-casa {
+    display: flex;
+    flex-direction: column;
+    background: rgba(10, 10, 10, 0.692);
+    width: 1900px;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    gap: 20px;
+}
+
+.container-casa h1 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-family: "Italianno", serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.container-casa p {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

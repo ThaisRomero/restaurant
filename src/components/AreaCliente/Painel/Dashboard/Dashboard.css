@@ -1,0 +1,62 @@
+.all-box{
+    width: 2094px;
+    height: 100%;
+}
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    justify-content: space-between;
+}
+
+.box1-item{
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 1.5rem;
+    width: 600px;
+    height: 300px;
+    padding: 40px;
+}
+
+.box2-item {
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 1.5rem;
+    width: 900px;
+    height: 700px;
+    padding: 40px;
+}
+
+.box1-line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.box1-line2 p:nth-child(1) {
+    font-weight: bold ;
+}
+
+.pedido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.reserva{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.box2-line2 p:nth-child(1) {
+    font-weight: bold;
+}
