@@ -3,10 +3,10 @@ import "./Dashboard.css";
 
 const Dashboard = () => {
   return (
-    <div className="content">
+    <div className="content1">
       <div className="all-box">
         <div className="box1">
-          <div className="total-pedidos box1-item">
+          <div className="total-pedidos box1-item ibox">
             <div className="box1-line1">
               <h3>Total de Pedidos</h3>
               <svg
@@ -24,7 +24,7 @@ const Dashboard = () => {
               <p>Este mês</p>
             </div>
           </div>
-          <div className="prox-reserva box1-item">
+          <div className="prox-reserva box1-item ibox">
             <div className="box1-line1">
               <h3>Próxima Reserva</h3>
               <svg
@@ -42,7 +42,7 @@ const Dashboard = () => {
               <p>xx:xx - X pessoas</p>
             </div>
           </div>
-          <div className="pratos-favoritos box1-item">
+          <div className="pratos-favoritos box1-item ibox">
             <div className="box1-line1">
               <h3>Pratos favoritos</h3>
               <svg
@@ -62,7 +62,7 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="box2">
-          <div className="pedidos-recentes box2-item">
+          <div className="pedidos-recentes box2-item ibox">
             <div className="box2-line1">
               <h3>Pedidos Recentes</h3>
               <p>Seus últimos 3 pedidos</p>
@@ -101,7 +101,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div className="reservas-proximas box2-item">
+          <div className="reservas-proximas box2-item ibox">
             <div className="box2-line1">
               <h3>Reservas Próximas</h3>
               <p>Suas próximas reservas</p>
