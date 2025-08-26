@@ -29,6 +29,7 @@ const NavBar = ({ countItens }) => {
             <img id="vetor" src={vetorNav} alt="vetor" />
             <p>Encanto Gastronomia</p>
           </div>
+          <div className="menu-right">
           <div className="nav-itens">
             <nav className="box-nav">
               <ul id="menu">
@@ -69,13 +70,13 @@ const NavBar = ({ countItens }) => {
                 </li>
               </ul>
             </nav>
-
+            </div>
             <div className="logon-cart">
               <Badge count={totalItens} showZero>
                 <ShoppingCartOutlined onClick={toCart} />
               </Badge>
             </div>
-          </div>
+            </div>
         </div>
       </header>
     </div>

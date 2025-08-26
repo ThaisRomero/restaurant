@@ -27,7 +27,7 @@ const Delivery = () => {
                   return (
                     <div
                       key={index}
-                      className="box"
+                      className="box-item"
                       style={{
                         backgroundImage: `url(${item.img})`,
                         backgroundSize: "100% 100%",
