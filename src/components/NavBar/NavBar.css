@@ -33,9 +33,10 @@ header {
 
 #menu {
     display: flex;
+    flex-direction: row;
     gap: 2rem;
     list-style: none;
-    justify-content: flex-end;
+    width: 1200px;
 }
 
 
@@ -58,6 +59,7 @@ header {
 }
 
 #branch p {
+    width: 290px;
     font-family: "Beau Rivage", serif;
     font-weight: 400;
     font-style: normal;
@@ -113,5 +115,15 @@ header {
 }
 
 .logon-cart{
+    align-content: center;
+    width: 40px;;
+}
+
+.nav-itens{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
     align-content: center;
 }

@@ -69,33 +69,33 @@ const Dashboard = () => {
             </div>
             <div className="box2-line2">
               <div className="pedido1 pedido">
-                <div className="pedido-left">
+                <div className="left">
                   <p>#001</p>
-                  <p>xx/xx/xxxx</p>
+                  <p>DD/MM/AA às 00:00 </p>
                 </div>
-                <div className="pedido-right">
-                  <p>R$xx,xx</p>
+                <div className="right">
+                  <p>R$XX,XX</p>
                   <p>Entregue</p>
                 </div>
               </div>
               <div className="pedido2 pedido">
-                <div className="pedido-left">
+                <div className="left">
                   <p>#002</p>
-                  <p>xx/xx/xxxx</p>
+                  <p>DD/MM/AA às 00:00</p>
                 </div>
-                <div className="pedido-right">
-                  <p>R$xx,xx</p>
+                <div className="right">
+                  <p>R$XX,XX</p>
                   <p>Entregue</p>
                 </div>
               </div>
               <div className="pedido3 pedido">
-                <div className="pedido-left">
+                <div className="left">
                   <p>#003</p>
-                  <p>xx/xx/xxxx</p>
+                  <p>DD/MM/AA às 00:00</p>
                 </div>
 
-                <div className="pedido-right">
-                  <p>R$xx,xx</p>
+                <div className="right">
+                  <p>R$XX,XX</p>
                   <p>Entregue</p>
                 </div>
               </div>
@@ -107,11 +107,11 @@ const Dashboard = () => {
               <p>Suas próximas reservas</p>
             </div>
             <div className="box2-line2 reserva">
-              <div className="pedido-left">
+              <div className="reserva-left">
                 <p>Mesa 12</p>
                 <p>xx/xx/xx ás xx:xx</p>
               </div>
-              <div className="pedido-right">
+              <div className="reserva-right">
                 <p>X pessoas</p>
                 <p>Confirmada</p>
               </div>

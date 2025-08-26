@@ -1,5 +1,5 @@
 .page-cart{
-    height: 1102px;
+    height: 100%;
     width: 100%;
     background-color: rgb(241, 241, 241);
     align-content: center;
@@ -100,7 +100,7 @@
     display: flex;
     flex-direction: row;
     width: 1200px;
-    height: 200px;
+    height: 210px;
     background-color: #fff;
     align-items: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;

@@ -28,7 +28,7 @@ const Cart = ({ count }) => {
   }
 
   return (
-    <div>
+    <div className="content">
       <div className="page-cart">
         <div className="container-cart">
           <div className="itens-in-cart">
@@ -41,7 +41,7 @@ const Cart = ({ count }) => {
                   </div>
                   <div className="dates-choose">
                     <div className="content-choose">
-                      <h2>{product.name}</h2>
+                      <h3>{product.name}</h3>
                     </div>
                     <div className="price-choose">
                       <p>Valor: R${product.price.toFixed(2)}</p>

@@ -1,64 +1,89 @@
 import React from "react";
-import { Modal } from "antd";
 import "./Reservas.css";
 
 const Reservas = () => {
-  const success = (e) => {
-    e.preventDefault();
-    Modal.success({
-      content: "Reserva agendada!",
-    });
-  };
-
   return (
-    <div>
-      <div className="content">
-        <div id="container">
-          <h1>Faça sua reserva!</h1>
-          <form action="" method="get" className="formulario">
-            <div id="form1">
-              <div id="name-content">
-                <label htmlFor="name">Nome: </label>
-                <br />
-                <input type="text" id="name" />
+    <div className="box-pedidos">
+      <div className="line">
+        <h3>Minhas Reservas</h3>
+        <p>Gerencie suas reservas</p>
+      </div>
+      <div className="line">
+        <div className="box-reseva">
+          <div className="side-a2">
+            <div className="mesa-status">
+              <h4>Mesa XX</h4>
+              <p>Confirmada</p>
+            </div>
+            <div className="data-hora">
+              <div className="item-data">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-calendar"
+                  viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+                </svg>
+                <p>XX-XX-XX</p>
               </div>
-
-              <div id="phone-content">
-                <label htmlFor="phone">Telefone: </label>
-                <br />
-                <input type="tel" id="phone" />
-              </div>
-
-              <div id="mail-content">
-                <label htmlFor="mail">E-mail: </label>
-                <br />
-                <input type="email" id="mail" />
+              <div className="item-data">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clock"
+                  viewBox="0 0 16 16">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                </svg>
+                <p> 00:00</p>
               </div>
             </div>
-            <div id="form2">
-              <div id="date-content">
-                <label htmlFor="date">Data: </label>
-                <br />
-                <input type="date" id="date" />
+          </div>
+          <div className="side-b2">
+            <li>Editar</li>
+            <li>Alterar</li>
+          </div>
+        </div>
+      </div>
+      <div className="line">
+        <div className="box-reseva">
+          <div className="side-a2">
+            <div className="mesa-status">
+              <h4>Mesa XX</h4>
+              <p>Concluída</p>
+            </div>
+            <div className="data-hora">
+              <div className="item-data">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-calendar"
+                  viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+                </svg>
+                <p>XX-XX-XX</p>
               </div>
-
-              <div id="time-content">
-                <label htmlFor="hours">Horário: </label>
-                <br />
-                <input type="time" id="hours" />
-              </div>
-              <div id="desks-content">
-                <label htmlFor="desks">Assentos: </label>
-                <br />
-                <input type="number" id="desks" />
+              <div className="item-data">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clock"
+                  viewBox="0 0 16 16">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                </svg>
+                <p> 00:00</p>
               </div>
             </div>
-            <div className="buttonEnviar">
-              <button className="enviar" onClick={success}>
-                Enviar
-              </button>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>

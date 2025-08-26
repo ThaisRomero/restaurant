@@ -1,112 +1,70 @@
-
-#container {
-    margin: auto 35%;
-    padding-bottom: 6%;
-    background: rgba(0, 0, 0, 0.582);
-    justify-items: center;
-    border-radius: 50px;
+.mesa-status{
+display: flex;
+flex-direction: row;
+gap: 6%;
 }
 
-#container h1 {
-    margin-top: 40px;
-    padding-top: 80px;
-    color: rgb(177, 240, 187);
+.mesa-status p {
+border-radius: 0.5rem;
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+width: 40%;
+height: 26px;
+text-align: center;
+align-content: center;
+font-weight: bold;
 }
 
-.formulario {
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-.formulario input {
-    width: 90%;
-    height: 25px;
-    margin: 0 auto;
-    border: auto;
-    border-radius: 8px;
-}
-
-#form1 {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: normal;
-    gap: 10px;
-    font-size: 20px;
-    width: 380px;
-    color: aliceblue;
-}
-
-#form2 {
-    margin-top: 10px;
+.box-reseva{
     display: flex;
     flex-direction: row;
-    align-items: normal;
-    gap: 10px;
-    font-size: 20px;
     justify-content: space-between;
-    max-width: 380px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.side-b2 li:nth-child(1){
+    list-style: none;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(180, 180, 180);
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.side-b2 li:nth-child(2) {
+    list-style: none;
+    border-radius: 0.5rem;
+    background-color: rgb(211, 3, 3);
     color: aliceblue;
-}
-
-#name {
-    width: 380px;
-}
-
-#phone {
-    width: 380px;
-}
-
-#mail {
-    width: 380px;
-}
-
-#date {
-    width: 100px;
+    width: 40%;
+    height: 40%;
     text-align: center;
+    align-content: center;
+    /* font-weight: bold; */
 }
 
-#hours {
-    width: 100px;
-    text-align: center;
-}
-
-#desks {
-    width: 100px;
-    text-align: center;
-}
-
-.buttonEnviar {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    color: #dfdcdc;
-}
-
-.buttonEnviar button {
-    width: 120px;
-    height: 40px;
-    font-size: 20px;
-    border: auto;
-    border-radius: 8px;
-    background-color: rgb(0, 53, 9);
-    color: #d4d0d0;
+.side-b2 li:nth-child(1):hover{
+    background-color: rgb(223, 223, 223);
     cursor: pointer;
 }
 
-.enviar:hover {
-    color: #FFF;
-    transition: 1.0s;
+.side-b2 li:nth-child(2):hover {
+    cursor: pointer;
 }
 
-.ant-modal-content {
-    background-color: rgba(7, 7, 7, 0.733) !important;
+.side-b2 {
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+    text-align: right;
+    justify-items: right;
+    width: 10%;
 }
 
-.ant-modal-confirm-content {
-    color: #FFF !important;
+.side-a2 {
+    width: 15%;
 }
 
-.ant-modal-confirm-btns button {
-    background-color: rgb(0, 53, 9);
-}

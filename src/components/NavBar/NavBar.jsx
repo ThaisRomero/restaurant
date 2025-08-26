@@ -29,50 +29,52 @@ const NavBar = ({ countItens }) => {
             <img id="vetor" src={vetorNav} alt="vetor" />
             <p>Encanto Gastronomia</p>
           </div>
-          <nav className="box-nav">
-            <ul id="menu">
-              <li>
-                <Link className="link-navigate" to="/">
-                  {" "}
-                  Início
-                </Link>
-              </li>
-              <li>
-                <Link className="link-navigate" to="/Casa">
-                  A Casa
-                </Link>
-              </li>
-              <li>
-                <Link className="link-navigate" to="/chefs">
-                  {" "}
-                  Os Chefs
-                </Link>
-              </li>
-              <li>
-                <Link className="link-navigate" to="/cardapio">
-                  {" "}
-                  Cardápio
-                </Link>
-              </li>
-              <li>
-                <Link className="link-navigate" to="/delivery">
-                  {" "}
-                  Delivery
-                </Link>
-              </li>
-              <li>
-                <Link className="link-navigate" to="/area_do_cliente">
-                  {" "}
-                  Área do Cliente
-                </Link>
-              </li>
-            </ul>
-          </nav>
+          <div className="nav-itens">
+            <nav className="box-nav">
+              <ul id="menu">
+                <li>
+                  <Link className="link-navigate" to="/">
+                    {" "}
+                    Início
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link-navigate" to="/Casa">
+                    A Casa
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link-navigate" to="/chefs">
+                    {" "}
+                    Os Chefs
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link-navigate" to="/cardapio">
+                    {" "}
+                    Cardápio
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link-navigate" to="/delivery">
+                    {" "}
+                    Delivery
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link-navigate" to="/area_do_cliente">
+                    {" "}
+                    Área do Cliente
+                  </Link>
+                </li>
+              </ul>
+            </nav>
 
-          <div className="logon-cart">
-            <Badge count={totalItens} showZero>
-              <ShoppingCartOutlined onClick={toCart} />
-            </Badge>
+            <div className="logon-cart">
+              <Badge count={totalItens} showZero>
+                <ShoppingCartOutlined onClick={toCart} />
+              </Badge>
+            </div>
           </div>
         </div>
       </header>
