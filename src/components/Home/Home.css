@@ -1,5 +1,5 @@
-.content {
-    height: calc(100vh - 88.81px);
+.content {  
+    height: calc(100vh - 160px);
 }
 
 #page-home {
@@ -7,7 +7,7 @@
     background-image: url(../../assets/Images/fachada-noite2.2.png);
     background-color: #cccccc;
     height: calc(100vh - 88.81px);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     align-content: center;

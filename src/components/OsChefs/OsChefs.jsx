@@ -87,9 +87,9 @@ const OsChefs = () => {
   ];
 
   return (
-    <div>
+    <div className="content">
       <div className="chefs-content">
-        <h1>Os Chefes</h1>
+        <h1>Os Chefs</h1>
         {itens.map((item, index) => {
           return (
             <div

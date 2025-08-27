@@ -14,9 +14,9 @@ const Delivery = () => {
       <div className="delivery-content content">
         <div className="box-page">
           <div id="content-category">
-            <div className="intro">
-              <h1>Delivery</h1>
-              <h2>
+            <div className="intro neon-container">
+              <h1 className="neon-text">Delivery</h1>
+              <h2 className="neon-text">
                 Encontre os melhores pratos e bebidas selecionando as categorias
                 do nosso menu
               </h2>

@@ -1,6 +1,7 @@
  .delivery-content {
    background-size:   100% 100%;
-   background-image: url("../../../assets/Images/mesawpp.jpg");
+   /* background-image: url("../../../assets/Images/mesawpp.jpg"); */
+   background-color: rgb(0, 0, 0);
    justify-items: center;
    font-family: "Quicksand", serif;
    font-optical-sizing: auto;
@@ -11,9 +12,11 @@
  .box-page{
   width: 65%;
   height: 100%;
-  background-color: #fff;
+  background-color: #eceaea;
   justify-items: center;
   align-content: center;
+  /* box-shadow: rgba(0, 0, 0, 0.753) 0px 2px 16px 0px; */
+  box-shadow: rgba(221, 221, 221, 0.753) 0px 2px 16px 0px;
  }
 
  #content-category{
@@ -24,31 +27,66 @@
   justify-items: center;
   align-content: center;
   align-items: center;
+
+
  }
     
+.intro{
+  width: 100%;
+  height: 35%;
+  background-image: url("../../../assets/Images/delivery/delivery-category-bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
  .intro h1{
     padding-top : 100px;
     text-align: center;
-    color: rgb(206, 15, 15);
-    font-size: 50px;
+    /* color: rgb(206, 15, 15); */
+    font-size: 70px;
     font-weight: 600;
 }
 
  .intro h2 {
-   color: rgb(2, 2, 2);
+   color: rgb(255, 255, 255);
    margin-top: 40px;
+   padding: 0% 6%;
+   text-align: center;
+   font-size: 32px;
+ }
+
+ .neon-text {
+   font-size: 4rem;
+   color: #fff;
+   text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+   animation: glow 1.5s infinite alternate;
+ }
+
+ @keyframes glow {
+   0% {
+     text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+   }
+
+   100% {
+     text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+   }
  }
 
  .all-category {
    width: 100%;
    height: 65%;
+    padding: 2% 4%;
  }
+ 
  .item-category {
       display: grid;
-      grid-template-columns: 28% 28% 28%;
+      grid-template-columns: 25% 25% 25%;
       height: 100%;
       width: 100%;
       justify-content: center;
+      align-items: center;
+      justify-items: center;
       
  }
 
@@ -60,6 +98,7 @@
    justify-items: center;
    align-content: center;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.925) 0px 5px 12px;
  }
 
 .box-item h3 {
