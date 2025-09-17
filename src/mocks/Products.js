@@ -67,7 +67,9 @@ const itens = [
       "Uma apresentação elegante de atum fresco cortado em cubos, combinado com fatias de abacate cremoso. A receita é finalizada com um delicado molho de soja, um toque de pimenta e um fio de azeite trufado.",
     img: pratoTartar,
     alt: "tartar",
-    category: "doMar",
+    category: "DoMar",
+    price: 140.9,
+    id: 5,
   },
 
   {
@@ -76,7 +78,9 @@ const itens = [
       "Peixe branco fresco marinado em suco de limão e laranja, misturado com fatias finas de manga, coentro e pimenta rosa. Uma combinação refrescante e picante, servida em uma apresentação minimalista e sofisticada.",
     img: pratoCeviche,
     alt: "ceviche",
-    category: "doMar",
+    category: "DoMar",
+    price: 140.9,
+    id: 6,
   },
 
   {
@@ -85,7 +89,9 @@ const itens = [
       "Um filé de salmão selvagem grelhado, coberto com uma crosta crocante de ervas finas, acompanhado de um molho de limão siciliano, que acrescenta frescor e leveza ao prato.",
     img: pratoSalmão,
     alt: "salmão",
-    category: "doMar",
+    category: "DoMar",
+    price: 140.9,
+    id: 7,
   },
 
   {
@@ -94,7 +100,9 @@ const itens = [
       "Posta de bacalhau assada, coberta por uma crosta crocante de azeitonas pretas e servida com um purê suave de couve-flor, resultando em uma combinação perfeita de sabores salgados e cremosos.",
     img: pratoBacalhau,
     alt: "bacalhau",
-    category: "doMar",
+    category: "DoMar",
+    price: 140.9,
+    id: 8,
   },
 
   {
@@ -104,6 +112,8 @@ const itens = [
     img: pratoTarte,
     alt: "tarte",
     category: "vegetariano",
+    price: 74.9,
+    id: 9,
   },
 
   {
@@ -113,6 +123,8 @@ const itens = [
     img: pratoRavioli,
     alt: "ravioli",
     category: "vegetariano",
+    price: 74.9,
+    id: 10,
   },
 
   {
@@ -122,6 +134,8 @@ const itens = [
     img: pratoRisotoLimao,
     alt: "risoto-doce",
     category: "vegetariano",
+    price: 74.9,
+    id: 11,
   },
 
   {
@@ -131,6 +145,8 @@ const itens = [
     img: pratoRisoto,
     alt: "risoto",
     category: "vegetariano",
+    price: 74.9,
+    id: 12,
   },
 
   {
@@ -140,6 +156,8 @@ const itens = [
     img: sobremesaCreme,
     alt: "creme",
     category: "sobremesas",
+    price: 74.9,
+    id: 13,
   },
 
   {
@@ -149,6 +167,8 @@ const itens = [
     img: sobremesaTarte,
     alt: "tarte",
     category: "sobremesas",
+    price: 74.9,
+    id: 14,
   },
 
   {
@@ -158,6 +178,8 @@ const itens = [
     img: sobremesaMousse,
     alt: "mousse",
     category: "sobremesas",
+    price: 74.9,
+    id: 15,
   },
 
   {
@@ -167,6 +189,8 @@ const itens = [
     img: sobremesaPanna,
     alt: "panna",
     category: "sobremesas",
+    price: 74.9,
+    id: 16,
   },
 ];
 export default itens;

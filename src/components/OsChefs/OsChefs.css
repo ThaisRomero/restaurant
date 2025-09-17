@@ -16,7 +16,7 @@
     margin-top: 100px;
     padding-bottom: 80px;
     text-align: center;
-    font-size: 60px;
+    font-size: 64px;
     font-family: "Italianno", serif;
     font-weight: 300;
     animation: lights 5s 750ms linear infinite;
@@ -70,15 +70,6 @@
 
 }
 
-body {
-    margin: 0;
-    font: 100% / 1.5 Raleway, sans-serif;
-    color: hsl(230, 100%, 95%);
-    background: linear-gradient(135deg, hsl(230, 40%, 12%), hsl(230, 20%, 7%));
-    height: 100vh;
-    display: flex;
-}
-
 .chefs-content h2 {
     color: white;
     font-size: 30px;
@@ -102,16 +93,16 @@ body {
 
 .margin-left-img {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 380px;
+    width: 380px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
 
 .margin-right-img {
-    height: 400px;
-    width: 400px;
+    height: 380px;
+    width: 380px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
