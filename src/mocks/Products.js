@@ -10,6 +10,7 @@ import pratoBacalhau from "../assets/Images/cardapio/bacalhau.jpg";
 import pratoTarte from "../assets/Images/cardapio/tarte-cebola.jpg";
 import pratoRavioli from "../assets/Images/cardapio/ravioli.jpg";
 import pratoRisotoLimao from "../assets/Images/cardapio/risoto-de-Limao.jpg";
+import pratoNull from "../assets/Images/cardapio/new.jpg";
 
 import sobremesaCreme from "../assets/Images/cardapio/creme.jpg";
 import sobremesaMousse from "../assets/Images/cardapio/mousse.jpg";
@@ -73,6 +74,66 @@ const itens = [
   },
 
   {
+    name: "'Prato novo 1'",
+    description: "'Detalhes do prato novo aqui'",
+    img: pratoNull,
+    alt: "prato",
+    category: "carnes",
+    price: 86.9,
+    id: 6,
+  },
+
+  {
+    name: "'Prato novo 2'",
+    description: "'Detalhes do prato novo aqui'",
+    img: pratoNull,
+    alt: "prato",
+    category: "carnes",
+    price: 86.9,
+    id: 7,
+  },
+
+  {
+    name: "'Prato novo 3'",
+    description: "'Detalhes do prato novo aqui'",
+    img: pratoNull,
+    alt: "prato",
+    category: "carnes",
+    price: 86.9,
+    id: 8,
+  },
+
+  {
+    name: "'Prato novo 4'",
+    description: "'Detalhes do prato novo aqui'",
+    img: pratoNull,
+    alt: "prato",
+    category: "carnes",
+    price: 86.9,
+    id: 9,
+  },
+
+  {
+    name: "'Prato novo 5'",
+    description: "'Detalhes do prato novo aqui'",
+    img: pratoNull,
+    alt: "prato",
+    category: "carnes",
+    price: 86.9,
+    id: 10,
+  },
+
+  {
+    name: "'Prato novo 6'",
+    description: "'Detalhes do prato novo aqui'",
+    img: pratoNull,
+    alt: "prato",
+    category: "carnes",
+    price: 86.9,
+    id: 11,
+  },
+
+  {
     name: "Ceviche de Peixe Branco com Manga e Pimenta Rosa",
     description:
       "Peixe branco fresco marinado em suco de limão e laranja, misturado com fatias finas de manga, coentro e pimenta rosa. Uma combinação refrescante e picante, servida em uma apresentação minimalista e sofisticada.",
@@ -119,7 +180,7 @@ const itens = [
   {
     name: "Ravioli de Abóbora com Manteiga de Sálvia",
     description:
-      "Massa fresca de ravioli recheada com purê de abóbora, acompanhada por um delicado molho de manteiga de sálvia e amêndoas torradas, formando um prato leve e saboroso, com notas adocicadas e aromáticas",
+      "Ravioli de abóbora com molho de manteiga e sálvia, finalizado com amêndoas torradas e notas levemente adocicadas.",
     img: pratoRavioli,
     alt: "ravioli",
     category: "vegetariano",
@@ -130,7 +191,7 @@ const itens = [
   {
     name: "Risoto de Aspargos Verdes e Limão Siciliano com Amêndoas Tostadas",
     description:
-      "Este risoto combina a cremosidade do arroz arbóreo com a leveza dos aspargos verdes e o frescor do limão siciliano. As amêndoas tostadas adicionam crocância e suavidade ao prato. Finalizado com parmesão ou queijo vegano, oferece uma refeição sofisticada e equilibrada.",
+      "Risoto cremoso de arroz arbóreo com aspargos e toque de limão siciliano, crocância de amêndoas tostadas e finalização com parmesão ou queijo vegano, resultando em um prato leve e sofisticado.",
     img: pratoRisotoLimao,
     alt: "risoto-doce",
     category: "vegetariano",
@@ -141,7 +202,7 @@ const itens = [
   {
     name: "Risoto de Cogumelos Selvagens com Parmesão e Trufas",
     description:
-      "Um risoto cremoso, com arroz arbóreo perfeitamente cozido, envolto em um caldo de cogumelos silvestres e finalizado com lascas finas de trufa negra. O toque de parmesão ralado na hora dá a este prato uma textura única.",
+      "Risoto de cogumelos silvestres com trufa negra e parmesão, cremoso e de textura refinada.",
     img: pratoRisoto,
     alt: "risoto",
     category: "vegetariano",
