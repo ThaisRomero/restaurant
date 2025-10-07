@@ -1,22 +1,20 @@
 .chefs-content {
     padding: 0px 200px;
     display: flex;
-    gap: 0px;
     flex-direction: column;
     /* background-color: rgb(22, 1, 1); */
     background-image: url("../../assets/Images/chefs-bg2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    padding-bottom: 5%;
     height: 100%;
 }
 
 .chefs-content h1 {
-    margin-top: 100px;
-    padding-bottom: 80px;
+    margin-top: 6%;
+    padding-bottom: 3%;
     text-align: center;
-    font-size: 64px;
+    font-size: 4.4rem;
     font-family: "Italianno", serif;
     font-weight: 300;
     animation: lights 5s 750ms linear infinite;
@@ -72,7 +70,7 @@
 
 .chefs-content h2 {
     color: white;
-    font-size: 30px;
+    font-size: 2.2rem;
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -83,7 +81,7 @@
 .chefs-content p {
     color: #bbc2c7;
     text-align: justify;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -93,28 +91,32 @@
 
 .margin-left-img {
     display: flex;
-    height: 380px;
-    width: 380px;
+    border-radius: 0.5rem;
+    height: 100%;
+    width: auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
 
 .margin-right-img {
-    height: 380px;
-    width: 380px;
+    border-radius: 0.5rem;
+    height: 100%;
+    width: auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .chef-left {
     display: flex;
     align-items: center;
+    height: 30%;
 }
 
 .chef-right {
     display: flex;
     text-align: end;
     text-align-last: right;
-    margin-top: 3%;
+    margin-top: 8%;
     align-items: center;
+    height: 30%;
 }

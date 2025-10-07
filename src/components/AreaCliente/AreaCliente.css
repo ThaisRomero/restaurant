@@ -8,12 +8,12 @@
 }
 
 .form-area{
-    background-color: aliceblue;
-    /* opacity: 60%; */
+    background-color: rgba(0, 0, 0, 0.534);
+    border: 0.5px  rgba(255, 255, 255, 0.212);
     border-radius: 2.5rem;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.692);    
     width: 23%;
-    height: 500px;
+    height: 47%;
     justify-content: center;
     justify-items: center;
     align-content: center;
@@ -24,17 +24,21 @@
     flex-direction: column;
     height: auto;
     width: 60%;
-    gap: 20px;
 }
 
 
 .form-area h1 {
     text-align: center;
-    font-family: sans-serif;
-    color: rgb(0, 53, 9);
+    font-family: "Beau Rivage", serif ;
+    color: rgb(255, 255, 255);
     align-content: center;
-    margin-bottom: 20px !important;
+    margin-bottom: 4% !important;
+    font-size: 3.5rem;
 
+}
+
+.form-group:nth-child(1){
+    margin-bottom: 2%;
 }
 
 
@@ -43,14 +47,25 @@
     display: flex;
     flex-direction: column;
     align-items: center !important;
-    gap: 20px;
-
 }
 
 .btn{
     width: 100%;
 }
 
+.btn-success{
+    margin-bottom: 4%;
+}
+
 .content-form{
-    margin: 1px;
+    margin-bottom: 8%;
+    color: aliceblue;
+}
+
+.content-form input{
+    opacity: 80%;
+}
+
+#emailHelp{
+    color: rgb(156, 156, 156) !important;
 }
